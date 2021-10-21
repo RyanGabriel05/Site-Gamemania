@@ -1,0 +1,153 @@
+
+@media screen and (max-width:768px) {
+    /* MENU */
+
+    .barras {
+        display: inline-block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    /* PRODUTOS */
+    
+    .secao-produtos {
+        height: 810px;
+    }
+
+    .secao-produtos h1 {
+        font-size: 30px;
+    }
+
+    .produtos-flex {
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 134px;
+        padding-left: 134px;
+    }
+
+    .produto-item {
+        width: 250px;
+        height: 200px;
+    }
+
+    /* CLIENTES */
+    
+    .secao-clientes {
+        height: 420px;
+    }
+    .clientes h1 {
+        font-size: 30px;
+    }
+
+    .clientes-flex {
+        padding-right: 149px;
+        padding-left: 149px;
+    }
+    
+    .clientes1 {
+        padding-right: 30px;
+        width: 250px;
+        height: 200px;  
+        padding-left: 0px;      
+        
+    }
+    
+    .clientes2 {
+        width: 220px;
+        height: 200px;
+        padding-left: 0px;
+    }
+
+    /* RODAPE */
+    
+
+    .footer {
+        height: 240px;
+    }
+
+    .atendimento {
+        padding-left: 50px;
+        font-size: 16px;
+        }
+        
+    .email {
+        padding-left: 40px;
+        padding-top: 40px;
+        font-size: 16px;
+        }
+        
+    .redes {
+        margin-top: -60px;
+        padding-left: 40px;
+        font-size: 16px;
+        }
+}
+
+
+@media screen and (max-width:320px) {
+    /* MENU */
+
+    /* PRODUTOS */
+    
+    .secao-produtos {
+        height: 1350px;
+    }
+
+    .secao-produtos h1 {
+        font-size: 20px;
+    }
+
+    .produtos-flex {
+        padding-left: 35px;
+        padding-right: 35px;
+        }
+
+    /* CLIENTES */
+
+    .secao-clientes {
+        display: none;
+    }
+
+    /* RODAPE */
+
+    .footer{
+        height: 340px;
+    }
+
+    .footer h3 {
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .footer p {
+        align-items: center;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .atendimento{
+        padding-right: 35px;
+        padding-left: 55px;
+    }
+
+    .redes {
+        padding-top: -3px;
+        margin-top: 0px;
+    
+    }
+
+    .redes h3 {
+        padding-left: 85px;
+    }
+
+    .email {
+        padding-top: 0px;
+        margin-top: 0px;
+        padding-left: 55px;
+        padding-bottom: 0px;
+    }
+
+}

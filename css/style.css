@@ -1,21 +1,24 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* MENU */
 header {
     background-color: #098D97;
     height: 140px;
 }
 
 .container-grid {
-    width: 1200px;
+    max-width: 1920px;
+    width: 90%;
     margin: 0 auto;
 }
 
 .posicionamento-header {
-    height: 110%;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,15 +35,21 @@ header {
     text-decoration: none;
     text-transform: uppercase;
     font-family: "Arial";
-    font-size: 20px;
+    font-weight: bold;
+    font-size: 20px;   
 }
-
+.barras {
+    width: 30px;
+    display: none;
+}
+/* BANNER */
 .banner {
     background-image: url(../img/banner.png);
     height: 290px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin-left: -20px;
 }
 
 .itens-banner {
@@ -51,8 +60,137 @@ header {
 }
 
 .texto-banner {
-    width: 1050px;
+    text-align: center;
+    width: 1900px;
     color: white;
     font-family: "Arial";
+    font-weight: bold;
     font-size: 20px;    
 }
+ /* PRODUTOS */
+ 
+ .secao-produtos {
+    background-color: black;
+    width: 1920;
+    height: 800px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+ .produtos-flex {
+  display: flex; 
+  flex-wrap: wrap; 
+  margin: 0 100px;
+  padding-left: 120px;
+  padding-top: 40px;
+  margin-left: 240px;
+  margin-right: 240px;
+
+}
+ .secao-produtos h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 40px;
+}
+
+ .produtos {
+    padding-top: 20px;
+}
+
+ .produto-item{
+    width: 400px;
+    height: 300px;
+    padding: 30px 30px;
+    
+}
+
+/* CLIENTES */
+
+.secao-clientes {
+    width: 1920;
+    height: 700px;
+}
+
+.secao-clientes h1 {
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 50px;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 40px;  
+}
+
+.clientes-flex {
+    display: flex;
+    flex-wrap: wrap; 
+    padding-left: 350px;
+    padding-top: 40px; 
+}
+
+
+.clientes1 {
+    padding-right: 150px;
+    }
+
+/* RODAPE */
+
+.footer {
+    background-color: #098D97;
+    width: 1920;
+    height: 160px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.atendimento {
+    padding-top: 40px;
+    padding-left: 100px;
+    color: #fff;
+    font-family: "Arial";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.email {
+    padding-left: 400px;
+    padding-top: 20px;
+    color: #fff;
+    font-family: "Arial";
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.redes {
+    padding-left: 450px;
+    padding-top: 20px;
+    width: 300px;  
+    color: #fff;
+    font-family: "Arial";
+    font-weight: bold;
+    text-transform: uppercase;  
+    font-size: 20px;
+}
+
+.redes-sociais {
+    list-style-type: none;
+    display: flex;
+    padding-top: 0px;
+    padding-left: 0px;
+}
+
+.redes-sociais li {
+    padding-left: 20px;
+}
+
+.redes h3 {
+    padding-left: 70px;
+}
+
+
