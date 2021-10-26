@@ -1,0 +1,62 @@
+.login-cadastro {
+    background-color: black;
+    height: 300px;
+}
+
+.login-cadastro h2 {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Arial";
+    font-weight: bold;
+    font-size: 30px;  
+}
+
+.lc {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.form-login {
+    display: grid;
+    justify-items: center;
+}
+
+.um > form:nth-child(1) {
+    display: grid;
+    justify-items: center;
+    margin-top: 60px;
+}
+
+.um > form:nth-child(1) > h2:nth-child(1) {
+    padding-bottom: 40px;
+}
+
+.um > form:nth-child(1) > button:nth-child(4) {
+    margin-top: 10px;
+}
+
+
+.um > form:nth-child(1) > input:nth-child(3) {
+    margin-top: 10px;
+}
+
+.dois {
+    display: grid;
+    justify-items: center;
+    padding-left: 50px;
+    margin-top: 60px;
+}
+
+.dois h2 {
+    padding-bottom: 40px;
+}
+
+.dois > button:nth-child(4) {
+    margin-top: 10px;
+}
+
+.dois > input:nth-child(3) {
+    margin-top: 10px;
+}

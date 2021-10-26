@@ -1,13 +1,30 @@
+@media screen and (max-width:1920px) {
+    
+    /* .menu {
+        width: 480px;
+    }
+
+    .menu a{
+        font-size: 16px;
+    }
+
+    .logo {
+        width: 200px;
+        height: 150px;
+    } */
+    
+}
 
 @media screen and (max-width:768px) {
-    /* MENU */
 
-    .barras {
-        display: inline-block;
-    }
+    /* MENU */
 
     .menu {
         display: none;
+    }
+
+    .barras {
+        display: inline-block;
     }
 
     /* PRODUTOS */
@@ -37,6 +54,7 @@
     .secao-clientes {
         height: 420px;
     }
+
     .clientes h1 {
         font-size: 30px;
     }
@@ -70,20 +88,57 @@
     .atendimento {
         padding-left: 50px;
         font-size: 16px;
-        }
+    }
         
     .email {
+        padding-right: 50px;
         padding-left: 40px;
         padding-top: 40px;
         font-size: 16px;
-        }
+    }
         
     .redes {
         margin-top: -60px;
         padding-left: 40px;
         font-size: 16px;
-        }
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 2100px;
+    }
+
+    .sub-titulo {
+        font-size: 30px;
+    }
+
+    .notebooks {
+        margin-left: 60px;
+        margin-right: 0px;
+    }
+
+    .notebooks img{
+        width: 250px;
+        height: 200px;
+    }
+
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 1000px;
+    }
+
+    .sobre h3 {
+        font-size: 30px;
+    }
+    
+    .Politica-qualidade h3 {
+        font-size: 30px;
+    }
+
 }
+
 
 
 @media screen and (max-width:320px) {
@@ -148,6 +203,55 @@
         margin-top: 0px;
         padding-left: 55px;
         padding-bottom: 0px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 4100px;
+    }
+
+    .sub-titulo {
+        font-size: 20px;
+    }
+
+    .notebooks {
+        margin-left: 0px;
+    }
+
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 1130px
+    }
+
+    .sobre h3 {
+        font-size: 30px;
+    }
+
+    .sobre p {
+        font-size: 10px;
+    }
+    
+    .Politica-qualidade h3 {
+        font-size: 20px;
+    }
+
+    .Politica-qualidade p {
+        font-size: 10px;
+    }
+  
+    /* LOGIN/CADASTRO */
+
+    .login-cadastro {
+        height: 530px;
+    }
+    .login-cadastro h2 {
+       font-size: 20px;
+    }
+    
+    .dois {
+        padding-left: 0px;
     }
 
 }

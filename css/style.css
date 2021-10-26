@@ -42,6 +42,7 @@ header {
     width: 30px;
     display: none;
 }
+
 /* BANNER */
 .banner {
     background-image: url(../img/banner.png);
@@ -71,7 +72,7 @@ header {
  
  .secao-produtos {
     background-color: black;
-    width: 1920;
+    width: 100%;
     height: 800px;
     /* display: flex;
     flex-wrap: wrap; */
@@ -127,8 +128,8 @@ header {
 .clientes-flex {
     display: flex;
     flex-wrap: wrap; 
-    padding-left: 350px;
-    padding-top: 40px; 
+    justify-content: center;
+    padding-top: 40px;
 }
 
 
@@ -140,10 +141,10 @@ header {
 
 .footer {
     background-color: #098D97;
-    width: 1920;
     height: 160px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
     
 }
 
@@ -158,7 +159,6 @@ header {
 }
 
 .email {
-    padding-left: 400px;
     padding-top: 20px;
     color: #fff;
     font-family: "Arial";
@@ -168,7 +168,6 @@ header {
 }
 
 .redes {
-    padding-left: 450px;
     padding-top: 20px;
     width: 300px;  
     color: #fff;
