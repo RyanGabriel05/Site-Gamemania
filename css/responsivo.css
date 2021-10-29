@@ -11,8 +11,8 @@
     .logo {
         width: 200px;
         height: 150px;
-    } */
-    
+    }
+     */
 }
 
 @media screen and (max-width:768px) {
@@ -21,6 +21,30 @@
 
     .menu {
         display: none;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 200px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 65px;
+    }
+
+    .menu a {
+        text-align: center;
+        padding: 15px;
+        font-size: 16px;
+    }
+
+
+    .posicionamento-header {
+        position: relative;
+    }
+    
+    .menu-ativo {
+        display: flex;
     }
 
     .barras {
@@ -144,6 +168,38 @@
 @media screen and (max-width:320px) {
     /* MENU */
 
+    .menu {
+        display: none;
+    }
+
+    #menu {
+        flex-direction: column;
+        width: 115px;
+        background-color: black;
+        position: absolute;
+        top: 0;
+        right: 40px;
+    }
+
+    .menu a {
+        text-align: center;
+        padding: 15px;
+        font-size: 10px;
+    }
+
+
+    .posicionamento-header {
+        position: relative;
+    }
+    
+    .menu-ativo {
+        display: flex;
+    }
+
+    .barras {
+        display: inline-block;
+    }
+
     /* PRODUTOS */
     
     .secao-produtos {
@@ -208,11 +264,22 @@
     /* PRODUTOS A VENDA */
 
     .produtos-cont {
-        height: 4100px;
+        height: 3440px;
     }
 
     .sub-titulo {
         font-size: 20px;
+    }
+
+    .notebooks img{
+        width: 200px;
+        height: 150px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .notebooks p {
+        text-align: none;
     }
 
     .notebooks {
@@ -246,6 +313,7 @@
     .login-cadastro {
         height: 530px;
     }
+    
     .login-cadastro h2 {
        font-size: 20px;
     }

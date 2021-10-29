@@ -30,6 +30,7 @@ header {
     justify-content: space-between;
 }
 
+
 .menu a {
     color: white;
     text-decoration: none;
@@ -38,6 +39,7 @@ header {
     font-weight: bold;
     font-size: 20px;   
 }
+
 .barras {
     width: 30px;
     display: none;
