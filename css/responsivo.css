@@ -19,6 +19,10 @@
 
     /* MENU */
 
+    header {
+        height: 216px;
+    }
+
     .menu {
         display: none;
     }
@@ -168,6 +172,10 @@
 @media screen and (max-width:320px) {
     /* MENU */
 
+    header {
+        height: 180px;
+    }
+
     .menu {
         display: none;
     }
@@ -213,7 +221,7 @@
     .produtos-flex {
         padding-left: 35px;
         padding-right: 35px;
-        }
+    }
 
     /* CLIENTES */
 
