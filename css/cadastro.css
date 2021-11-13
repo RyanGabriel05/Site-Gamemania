@@ -42,6 +42,10 @@
     margin-top: 10px;
 }
 
+form.ng-untouched:nth-child(2) {
+    padding-left: 100px;
+}
+
 .dois {
     display: grid;
     justify-items: center;

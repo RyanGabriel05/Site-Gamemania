@@ -3,7 +3,7 @@
     /* .menu {
         width: 480px;
     }
-
+    
     .menu a{
         font-size: 16px;
     }
@@ -12,9 +12,157 @@
         width: 200px;
         height: 150px;
     }
-     */
+    */
 }
 
+@media screen and (max-width:820px) {
+    /* PRODUTOS */
+
+    .secao-produtos {
+        height: 950px;
+    }
+
+    .produtos-flex {
+        padding-left: 0px;
+        margin-left: 110px;
+        margin-right: 110px;
+    } 
+
+    .produto-item{
+        width: 300px;
+        height: 250px;
+    }
+
+    /* CLIENTES */
+
+    .secao-clientes {
+        height: 1100px;
+    }
+
+    .clientes1 {
+        padding-right: 0px;
+    }
+
+    .clientes2 {
+        padding-top: 50px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 1200px;
+        height: 2100px;
+    }
+
+    #espaco-produtos {
+        margin-right: 65px;
+        margin-left: 65px;
+    }
+    
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 650px;
+        height: 960px;
+    }
+    
+    /* LOGIN */
+    
+    /* RODAPÉ */
+    .footer {
+        height: 160px;
+        height: 282px;
+    }
+
+    .atendimento {
+        padding-left: 40px;
+    }
+
+    .email {
+        padding-right: 40px;
+    }
+
+    .redes {
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+
+}
+
+
+@media screen and (max-width:810px) {
+    /* PRODUTOS */
+
+    .secao-produtos {
+        height: 950px;
+    }
+
+    .produtos-flex {
+        padding-left: 0px;
+        margin-left: 105px;
+        margin-right: 105px;
+    } 
+
+    .produto-item{
+        width: 300px;
+        height: 250px;
+    }
+
+    /* CLIENTES */
+
+
+    .secao-clientes {
+        height: 1100px;
+    }
+
+    .clientes1 {
+        padding-right: 0px;
+    }
+
+    .clientes2 {
+        padding-top: 50px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 1200px;
+        height: 2100px;
+    }
+
+    #espaco-produtos {
+        margin-right: 60px;
+        margin-left: 60px;
+    }
+    
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 650px;
+        height: 960px;
+    }
+    
+    /* LOGIN */
+    
+    /* RODAPÉ */
+
+    .footer {
+        height: 160px;
+        height: 282px;
+    }
+    .atendimento {
+        padding-left: 40px;
+    }
+    .email {
+        padding-right: 40px;
+    }
+
+    .redes {
+        padding-top: 0px;
+        padding-left: 30px;
+    }
+
+}
 @media screen and (max-width:768px) {
 
     /* MENU */
@@ -104,6 +252,7 @@
         width: 220px;
         height: 200px;
         padding-left: 0px;
+        padding-top: 0px;
     }
 
     /* RODAPE */
@@ -132,6 +281,11 @@
     }
 
     /* PRODUTOS A VENDA */
+    
+    #espaco-produtos {
+        margin-left: 50px;
+        margin-right: 0px;
+    }
 
     .produtos-cont {
         height: 2100px;
@@ -150,19 +304,132 @@
         width: 250px;
         height: 200px;
     }
-
+    
     /* SOBRE */
-
+    
     .sobre-grid {
         height: 1000px;
     }
-
+    
     .sobre h3 {
         font-size: 30px;
     }
     
     .Politica-qualidade h3 {
         font-size: 30px;
+    }
+    
+}
+
+@media screen and (max-width:412px) {
+    /* CLIENTES */
+
+    .secao-clientes {
+        display: none;
+    }
+
+    /* PRODUTOS */
+
+    .secao-produtos {
+        height: 1350px;
+    }
+
+    .produtos-flex {
+        padding-left: 81px;
+        padding-right: 81px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    .produtos-cont {
+        height: 2100px;
+        height: 4070PX;
+    }
+
+    #espaco-produtos {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+     
+    .produtos-item a {
+        margin-left: 55px;
+        margin-right: 55px;
+    }
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 1000px;
+        height: 2470px;
+    }
+
+    /* LOGIN */
+
+    .login-cadastro {
+        height: 530px;
+    }
+
+    .dois {
+        padding-left: 0px;
+    }
+
+    /* RODAPE  */
+    .email {
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+
+    .redes {
+        padding-top: 50px;
+        padding-left: 90px;
+    }
+
+    .redes > h3:nth-child(1) {
+        padding-left: 75px;
+    }
+
+    .footer {
+        height: 340px;
+    }
+
+    .produtos-item a {
+        margin-left: 60px;
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width:384px) {
+    /* PRODUTOS */
+    .produtos-flex {
+        padding-right: 67px;
+        padding-left: 67px;
+    }
+
+    /* PRODUTOS A VENDA */
+
+    #espaco-produtos {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    /* SOBRE */
+
+    .sobre-grid {
+        height: 2610px;
+    }
+    
+    /* LOGIN */
+    
+    /* RODAPÉ */
+    .atendimento {
+        padding-left: 35px;
+    }
+
+    .email {
+        padding-left: 35px;
+    }
+
+    .redes {
+        padding-left: 75px;
     }
 
 }
@@ -253,9 +520,8 @@
     }
 
     .redes {
-        padding-top: -3px;
-        margin-top: 0px;
-    
+        padding-left: 50px;
+        margin-top: -50px;
     }
 
     .redes h3 {
@@ -268,6 +534,10 @@
         padding-left: 55px;
         padding-bottom: 0px;
     }
+    
+    .redes > h3:nth-child(1) {
+        padding-left: 85px;
+    }
 
     /* PRODUTOS A VENDA */
 
@@ -275,6 +545,11 @@
         height: 3440px;
     }
 
+    #espaco-produtos {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    
     .sub-titulo {
         font-size: 20px;
     }
@@ -331,3 +606,16 @@
     }
 
 }
+
+
+/* PRODUTOS */
+
+/* PRODUTOS A VENDA */
+
+/* SOBRE */
+
+/* LOGIN */
+
+/* RODAPÉ */
+
+
