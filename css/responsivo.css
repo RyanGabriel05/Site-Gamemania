@@ -225,6 +225,13 @@
         height: 200px;
     }
 
+    /* NOTICIAS */
+
+    .bloco-noticias {
+        margin-left: 105px;
+        margin-right: 105px;
+    }
+
     /* CLIENTES */
     
     .secao-clientes {
@@ -488,6 +495,21 @@
     .produtos-flex {
         padding-left: 35px;
         padding-right: 35px;
+    }
+
+    /* NOTICIAS */
+
+    .secao-noticias {
+        background-color: white;  
+    }
+
+    .bloco-noticias {
+        margin-right: 40px;
+        margin-left: 40px;
+    }
+
+    .texto-card a {
+        background-color: #098D97;
     }
 
     /* CLIENTES */
