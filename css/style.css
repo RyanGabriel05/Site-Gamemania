@@ -57,52 +57,52 @@ header {
     align-items: center;
 }
 
-.texto-banner {
-    text-align: center;
-    width: 1900px;
-    color: white;
-    font-family: "Arial";
-    font-weight: bold;
-    font-size: 20px;    
-}
- /* PRODUTOS */
- 
- .secao-produtos {
-    background-color: black;
-    width: 100%;
-    height: 800px;
-    /* display: flex;
-    flex-wrap: wrap; */
-}
- .produtos-flex {
-  display: flex; 
-  flex-wrap: wrap; 
-  margin: 0 100px;
-  padding-left: 120px;
-  padding-top: 40px;
-  margin-left: 240px;
-  margin-right: 240px;
+    .texto-banner {
+        text-align: center;
+        width: 1900px;
+        color: white;
+        font-family: "Arial";
+        font-weight: bold;
+        font-size: 20px;    
+    }
+    /* PRODUTOS */
+    
+    .secao-produtos {
+        background-color: black;
+        width: 100%;
+        height: 800px;
+        /* display: flex;
+        flex-wrap: wrap; */
+    }
+    .produtos-flex {
+    display: flex; 
+    flex-wrap: wrap; 
+    margin: 0 100px;
+    padding-left: 120px;
+    padding-top: 40px;
+    margin-left: 240px;
+    margin-right: 240px;
 
-}
- .secao-produtos h1 {
-    color: #fff;
-    text-align: center;
-    text-transform: uppercase;
-    padding-top: 50px;
-    font-family: "Arial";
-    font-weight: bold;
-    font-size: 40px;
-}
+    }
+    .secao-produtos h1 {
+        color: #fff;
+        text-align: center;
+        text-transform: uppercase;
+        padding-top: 50px;
+        font-family: "Arial";
+        font-weight: bold;
+        font-size: 40px;
+    }
 
- .produtos {
-    padding-top: 20px;
-}
+    .produtos {
+        padding-top: 20px;
+    }
 
- .produto-item{
-    width: 400px;
-    height: 300px;
-    padding: 30px 30px;   
-}
+    .produto-item{
+        width: 400px;
+        height: 300px;
+        padding: 30px 30px;   
+    }
 
 .secao-produtos .produtos-flex .produto-item {
     border-radius: 45px;
@@ -117,7 +117,7 @@ header {
 }
 
 .secao-clientes h1 {
-    color: white;
+    color: black;
     text-align: center;
     text-transform: uppercase;
     padding-top: 50px;
@@ -139,6 +139,7 @@ header {
 
 
 /* NOTICIAS */
+
 .noticias {
     display: flex;
     justify-content: space-between;
@@ -167,7 +168,11 @@ header {
 }
 
 .bloco-noticias h2 {
-    font-size: 25px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-family: "Arial";
+    font-weight: bold; 
 }
 
 .content-news{
